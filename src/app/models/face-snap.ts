@@ -10,6 +10,17 @@ export class FaceSnap{
 
 
     }
+    addSnap():void
+    {
+        this.snaps++;
+
+    }
+
+    removeSnap():void
+    {
+        this.snaps--;
+
+    }
 
  
 
