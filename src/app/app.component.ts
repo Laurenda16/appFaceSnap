@@ -42,6 +42,8 @@ export class AppComponent implements OnInit {
       1
 
      );
+
+     this.mySnap1.setLocation("25 rue de ma marne");
   }
  
 }

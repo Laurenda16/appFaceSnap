@@ -1,4 +1,5 @@
 export class FaceSnap{
+    location?:string;
 
     constructor(public title: string, 
                public description:string,
@@ -22,7 +23,11 @@ export class FaceSnap{
 
     }
 
- 
+ setLocation(location:string):void
+ {
+    this.location=location;
+
+ }
 
 
 }
